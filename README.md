@@ -1,11 +1,11 @@
-# AIML-Recruitment-2026-AYUSH AGARWAL
+# AIML-Recruitment-2026-<YourName>
 
 ## 1. Candidate Details
-- **Name:** Ayush Agarwal
-- **Year / Branch:** Second Year, B.Tech CSE (Core)
+- **Name:** <Your Full Name>
+- **Year / Branch:** Second Year, <Your Branch>
 - **University:** SRM Institute of Science and Technology
-- **Registration No.:** RA2511003010012
-- **Email / Contact:** aa3098@srmist.edu.in
+- **Registration No.:** <Your Reg No.>
+- **Email / Contact:** <Your Email>
 
 ## 2. Tasks Completed
 - [ ] Task 1: Air Quality Forecasting
@@ -28,21 +28,21 @@ Python, TensorFlow/Keras, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn, Goog
 ## 6. Results
 | Model | Parameters | Train Acc | Val/Test Acc | Train Loss | Val/Test Loss |
 |---|---|---|---|---|---|
-| Baseline (128 neurons) | 101,770 | 0.9962 | 0.9753 | 0.0133 | 0.0968 |
-| Experiment (32 neurons) | 25,450 | 0.9808 | 0.9671 | 0.0694 | 0.1207 |
+| Baseline (128 neurons) | <fill> | <fill> | <fill> | <fill> | <fill> |
+| Experiment (32 neurons) | <fill> | <fill> | <fill> | <fill> | <fill> |
 
-- Most confused digits: true 0 predicted as 6 (13 cases), true 5 predicted as 3 (13 cases), true 2 predicted as 7 (11 cases), true 4 predicted as 9 (11 cases)
-- Experiment outcome:- Experiment outcome: reducing the hidden layer from 128 to 32 neurons cut the parameters by about 75% (101,770 to 25,450) and lowered validation accuracy from 97.5% to 96.7%, showing that fewer neurons give the model less capacity to learn digit patterns.
+- Most confused digits: <fill from your confusion matrix, e.g. 4 vs 9>
+- Experiment outcome: <one sentence on what changed and why>
 
 ## 7. Key Learnings
 1. Neural networks need **non-linear activation functions** (like ReLU) to learn complex patterns; softmax turns outputs into class probabilities.
 2. **Preprocessing matters:** normalising inputs helps the model train faster and more stably.
 3. **Accuracy alone is not enough:** a confusion matrix shows which classes get confused with each other.
-4. Model capacity matters, but with diminishing returns: cutting the hidden layer size by 75% only reduced accuracy by about 1 percentage point, and the smaller model also showed a slightly smaller train-validation gap, meaning less overfitting.
+4. <Add your own learning, e.g. about model capacity / overfitting>
 
 ## 8. Challenges
-- **Challenge:** Understanding why ReLU and softmax are used in different layers, and what the confusion matrix numbers actually meant beyond a single accuracy score.
-- **How I solved it:** Plotted the ReLU function and a small softmax example by hand, and read through the Keras documentation and the classification report to interpret precision, recall and F1 per digit.
+- **Challenge:** <e.g. Understanding what softmax and loss actually do>
+- **How I solved it:** <e.g. Plotted a small softmax example by hand and read the Keras docs>
 
 ## Files
 - `MNIST_Neural_Network.ipynb`: full notebook with outputs
